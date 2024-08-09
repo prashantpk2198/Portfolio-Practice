@@ -5,7 +5,6 @@ import { useEffect } from "react";
 export default function MainRoot() {
   const location = useLocation();
   useEffect(() => {
-      console.log(window.scrollY);
     if (window.scrollY > 100) {
       window.scrollTo(0, 0);
     }

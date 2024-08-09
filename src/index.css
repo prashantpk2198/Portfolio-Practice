@@ -8,10 +8,6 @@
   min-height: 100vh;
 }
 
-#content {
-  /* margin: 80px 150px 50px 150px  */
-}
-
 #header {
   font-weight: 600;
   color: black;
@@ -39,7 +35,7 @@
 
 .header-item a:hover,
 .header-item a.active {
-  color: var(--color-primary-800);
+  color: rgb(18, 17, 17);
 }
 
 #footer-icons {
@@ -63,18 +59,17 @@ footer {
   margin: 80px 14% 50px 14%;
   gap: 40px;
 }
-#hero-section .item1{
+#hero-section .item1 {
   flex: 1 1 300;
   min-width: 250px;
   max-width: 450px;
   margin: 0;
 }
-#hero-section .item2{
+#hero-section .item2 {
   flex: 1 1 250px;
   min-width: 150px;
   align-self: center;
 }
-
 
 .name-role {
   font-size: 44px;
@@ -112,7 +107,8 @@ footer {
   border: none;
   border-radius: 5px;
 }
-#download:hover,#download:focus{
+#download:hover,
+#download:focus {
   background-color: #e17474;
   /* color: rgb(234, 218, 218); */
 }
@@ -248,7 +244,7 @@ footer {
   border: 1px solid #758a8a;
   color: #142020;
 }
-.control textarea{
+.control textarea {
   min-height: 2rem;
 }
 
@@ -298,13 +294,13 @@ footer {
   font-size: 1rem;
   border-radius: 4px;
   border: none;
-  background-color:#7f56d9;
+  background-color: #7f56d9;
   color: white;
   cursor: pointer;
 }
 
 .button:hover,
 .button:focus {
-  background-color:#6a3fc7;
+  background-color: #6a3fc7;
   color: #d9e2f1;
 }
